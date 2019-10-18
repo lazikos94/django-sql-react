@@ -76,13 +76,12 @@ WSGI_APPLICATION = 'sqlsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
-        'NAME':'sqldb' ,
-        'HOST':'JESUSPC\SQLEXPRESS',
-        'USER':'sa',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME':'SQLdb' ,
+        'HOST':'localhost',
+        'USER':'postgres',
         'PASSWORD':'r3xulhrt',
-        'OPTIONS':{
-            'driver':'ODBC Driver 17 for SQL Server'}
+        'PORT':'5432'
     }
 }
 
