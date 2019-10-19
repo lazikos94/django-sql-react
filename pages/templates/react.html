@@ -14,7 +14,9 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
   </head>
   <body>
-
+      {% for pages in all_pages_list %}
+      <h2>{{ pages }}</h2>
+      {% endfor %}
     <div id="root" class="root"></div>
     <script type="text/babel" src="{% static 'js/react.js' %}"></script>
   </body>
