@@ -45,3 +45,17 @@ p{
 h1{
 	color: blue;
 }
+
+.post-entry{
+	width:400px;
+	height:auto;
+	margin: auto;
+	border-radius: 25px;
+	border-color:white; 
+	border-style: solid;
+	background: rgba(56, 57, 143, 1);
+	position: relative;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
