@@ -11,10 +11,10 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/react.css' %}" />
   </head>
   <body>
-      {% for pages in all_pages_list %}
+      {% for pages in view_stuff %}
       <h2>{{ pages }}</h2>
       {% endfor %}
     <div id="root" class="root"></div>

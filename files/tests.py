@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse
 
-from .models import Sample
+from .models import Posts_Model
 
 class SampleModelTest(TestCase):
 
