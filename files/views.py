@@ -9,7 +9,7 @@ class DbPageView(ListView):
     template_name = 'sample.html'
     context_object_name = 'all_posts_list' # new
 
-class TestPageView(TemplateView):
+class ReactPageView(TemplateView):
     model = Posts_Model
     template_name = 'view.html'
     context_object_name = 'view_stuff'

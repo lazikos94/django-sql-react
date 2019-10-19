@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME':'SQLdb' ,
         'USER':'postgres',
-        'PASSWORD':'put your db password here',
+        'PASSWORD':'r3xulhrt',
         'PORT':'5432'
     }
 }
@@ -124,5 +124,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'sample/statics'),
+    os.path.join(BASE_DIR, 'files/statics'),
 ]

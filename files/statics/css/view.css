@@ -1,3 +1,13 @@
+body{
+	list-style: none;
+	font-family: Arial;
+    background-image: url('/static/image/view.jpg'); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .root{
 	width: 460px;
 	height:450px;
@@ -6,7 +16,7 @@
 	border-color:white; 
 	border-style: solid;
 	background: rgba(56, 57, 143, 1);
-	top: 30%;
+	top: 40%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -42,14 +52,4 @@ button{
 }
 label{
 	display: inline;
-}
-body{
-	list-style: none;
-	font-family: Arial;
-	color: #eee;
-    background-image: url('1.jpg'); 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }

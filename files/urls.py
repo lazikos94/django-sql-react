@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import DbPageView,TestPageView
+from .views import DbPageView,ReactPageView
 
 urlpatterns = [
     path('dbview/', DbPageView.as_view(), name='dbview'),
-    path('test/',TestPageView.as_view(), name='test')
+    path('react/',ReactPageView.as_view(), name='react')
 ]
